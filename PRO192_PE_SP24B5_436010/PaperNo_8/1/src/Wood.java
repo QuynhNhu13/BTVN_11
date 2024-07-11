@@ -25,7 +25,8 @@ public class Wood {
     }
 
     public void setYear(int year) {
-        this.year = year - year;
+        int newYear = this.year;
+        this.year = year - newYear;
     }
 
 }
